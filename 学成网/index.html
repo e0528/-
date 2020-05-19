@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学成网</title>
+    <base href="" target="_self">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/universe.css">
+</head>
+
+<body>
+
+    <!-- 横幅 -->
+    <nav class="w hengfu">
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">课程</a></li>
+                <li><a href="#">职业规划</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="http://www.baidu.com/baidu" target="_blank" method="GET"><input type="text" value="输入关键字" class="text" name="word"><input type="submit" value="" class="submit"></form>
+        </div>
+        <div class="user"><img src="images/user.png" alt=""><b>qq-leishui</b></div>
+
+    </nav>
+    <script>
+        var search = document.querySelector('.search');
+        var search_word = search.querySelector('input');
+        search_word.onfocus = function() {
+            if (search_word.value == '输入关键字') {
+                search_word.value = '';
+            }
+        }
+        search_word.onblur = function() {
+            if (search_word.value == '') {
+                search_word.value = '输入关键字';
+            }
+
+        }
+        var button = search.querySelector('button')
+    </script>
+    <!-- 横幅结束 -->
+    <!-- 栏 -->
+    <div class="lan">
+        <div class="lans w">
+            <div class="lans_left">
+                <ul>
+                    <li><a href="#">前端开发</a></li>
+                    <li><a href="#">后端开发</a></li>
+                    <li><a href="#">移动开发</a></li>
+                    <li><a href="#">人工智能</a></li>
+                    <li><a href="#">商业预测</a></li>
+                    <li><a href="#">云计算&大数据</a></li>
+                    <li><a href="#">运维&测试</a></li>
+                    <li><a href="#">UI设计</a></li>
+                    <li><a href="#" class="lasta">产品</a></li>
+                </ul>
+            </div>
+            <div class="lans_middle">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div class="lans_right">
+
+                <h2>我的课程表</h2>
+                <div>
+                    <h3>继续学习&nbsp;<b>程序设计语言</b></h3>
+                    <p>正在学习—使用对象</p>
+                    <h3>继续学习&nbsp;<b>程序设计语言</b></h3>
+                    <p>正在学习—使用对象</p>
+                    <h3>继续学习&nbsp;<b>程序设计语言</b></h3>
+                    <p>正在学习—使用对象</p>
+
+                    <button><a href="#neirong">全部课程</a></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 栏 -->
+    <!-- 热门 -->
+    <section class="remen w">
+        <div class="remen_left">
+            <ul>
+                <li><a href="#" class="rementuijian">热门推荐</a></li>
+                <li><a href="#">JQery</a></li>
+                <li><a href="#">spark</a></li>
+                <li><a href="#">Mysql</a></li>
+                <li><a href="#">JavaWeb</a></li>
+                <li><a href="#">Mysql</a></li>
+                <li><a href="#">JavaWeb</a></li>
+
+            </ul>
+        </div>
+        <div class="remen_right"><a href="#">修改兴趣</a></div>
+    </section>
+    <!-- 热门 -->
+    <!-- 推荐内容 -->
+    <div class="tuijian w" id="neirong">
+        <div class="tuijian_top universe">
+            <a href="#" class="universe_left">精品推荐</a>
+            <a href="#" class="universe_right">查看全部</a>
+        </div>
+        <div class="tuijian_bottom universecon">
+            <ul>
+                <li>
+                    <img src="images/1.png" alt="">
+                    <h3>Think&nbsp;PHP&nbsp;5.0博客系统实战项目演练</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                    <img src="images/hot.png" alt="" class="newandhot">
+                </li>
+                <li>
+                    <img src="images/2.png" alt="">
+                    <h3>Android网络图片加载框架译解</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                    <img src="images/new.png" alt="" class="newandhot">
+                </li>
+                <li>
+                    <img src="images/3.png" alt="">
+                    <h3>Angular&nbsp;2&nbsp;最新框架+主流技术+项目实战</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">1125人在学习</span></p>
+
+                </li>
+                <li>
+                    <img src="images/4.png" alt="">
+                    <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li>
+                    <img src="images/4.png" alt="">
+                    <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li>
+                    <img src="images/1.png" alt="">
+                    <h3>Think&nbsp;PHP&nbsp;5.0博客系统实战项目演练</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                    <img src="images/hot.png" alt="" class="newandhot">
+                </li>
+                <li>
+                    <img src="images/2.png" alt="">
+                    <h3>Android网络图片加载框架译解</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                    <img src="images/new.png" alt="" class="newandhot">
+                </li>
+                <li>
+                    <img src="images/3.png" alt="">
+                    <h3>Angular&nbsp;2&nbsp;最新框架+主流技术+项目实战</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li>
+                    <img src="images/4.png" alt="">
+                    <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li>
+                    <img src="images/4.png" alt="">
+                    <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 推荐内容 -->
+    <!-- 编程入门 -->
+    <div class="prog w">
+        <div class="prog_top universe">
+            <a href="#" class="universe_left">编程入门</a>
+            <div>
+                <ul>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">初级</a></li>
+                    <li><a href="#">中级</a></li>
+                    <li><a href="#">高级</a></li>
+                </ul>
+            </div>
+            <a href="#" class="universe_right">查看全部</a>
+        </div>
+        <div class="prog_bottom">
+            <div class="prog_bottom_left">
+                <img src="images/拷贝16.png" alt="">
+            </div>
+            <div class="prog_bottom_right">
+                <h3><img src="images/图层155.png" alt=""></h3>
+                <div class="progrb universecon">
+                    <ul>
+                        <li> <img src="images/图层145.png" alt="">
+                            <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                        <li> <img src="images/图层146.png" alt="">
+                            <h3>Kami2首页界面切换效果</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                        <li> <img src="images/图层144.png" alt="">
+                            <h3>Unity&nbsp;Profiler入门</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                        <li> <img src="images/图层143.png" alt="">
+                            <h3>Coco2d-x&nbsp;引擎源码中的纹理优化</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 编程入门 -->
+    <!-- 数据分析 -->
+    <div class="prog w">
+        <div class="prog_top universe">
+            <a href="#" class="universe_left">数据分析师</a>
+            <div>
+                <ul>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">初级</a></li>
+                    <li><a href="#">中级</a></li>
+                    <li><a href="#">高级</a></li>
+                </ul>
+            </div>
+            <a href="#" class="universe_right">查看全部</a>
+        </div>
+        <div class="prog_bottom">
+            <div class="prog_bottom_left">
+                <img src="images/椭圆6拷贝16.png" alt="">
+            </div>
+            <div class="prog_bottom_right">
+                <h3><img src="images/(FE9QA{K~796S[0G}SJUFIS.png" alt="" style="width: 100%;"></h3>
+                <div class="progrb universecon">
+                    <ul>
+                        <li> <img src="images/图层145.png" alt="">
+                            <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                        <li> <img src="images/图层146.png" alt="">
+                            <h3>Kami2首页界面切换效果</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                        <li> <img src="images/图层144.png" alt="">
+                            <h3>Unity&nbsp;Profiler入门</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                        <li> <img src="images/图层143.png" alt="">
+                            <h3>Coco2d-x&nbsp;引擎源码中的纹理优化</h3>
+                            <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 数据分析 -->
+    <!-- 机器学习 -->
+    <div class="jiqi w">
+        <div class="prog_top universe">
+            <a href="#" class="universe_left">机器学习工程师</a>
+            <div>
+                <ul>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">初级</a></li>
+                    <li><a href="#">中级</a></li>
+                    <li><a href="#">高级</a></li>
+                </ul>
+            </div>
+            <a href="#" class="universe_right">查看全部</a>
+        </div>
+        <div class=" universecon">
+            <ul>
+                <li> <img src="images/图层145.png" alt="">
+                    <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层146.png" alt="">
+                    <h3>Kami2首页界面切换效果</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层144.png" alt="">
+                    <h3>Unity&nbsp;Profiler入门</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层142.png" alt="" class="jiqiimg">
+                    <h3>Coco2d-x&nbsp;引擎源码中的纹理优化</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层145.png" alt="" class="jiqiimg">
+                    <h3>Coco2d-x&nbsp;引擎源码中的纹理优化</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 机器学习 -->
+    <!-- 前端 -->
+    <div class="jiqi w">
+        <div class="prog_top universe">
+            <a href="#" class="universe_left">前端开发工程师</a>
+            <div>
+                <ul>
+                    <li><a href="#">热门</a></li>
+                    <li><a href="#">初级</a></li>
+                    <li><a href="#">中级</a></li>
+                    <li><a href="#">高级</a></li>
+                </ul>
+            </div>
+            <a href="#" class="universe_right">查看全部</a>
+        </div>
+        <div class=" universecon">
+            <ul>
+                <li> <img src="images/图层145.png" alt="">
+                    <h3>Android&nbsp;Hybrid&nbsp;APP开发实战H5+原生！</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层146.png" alt="">
+                    <h3>Kami2首页界面切换效果</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层144.png" alt="">
+                    <h3>Unity&nbsp;Profiler入门</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层144.png" alt="" class="jiqiimg">
+                    <h3>Coco2d-x&nbsp;引擎源码中的纹理优化</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+                <li> <img src="images/图层145.png" alt="" class="jiqiimg">
+                    <h3>Coco2d-x&nbsp;引擎源码中的纹理优化</h3>
+                    <p><span class="universecon_spanleft">高级</span ><span class="universecon_spanright">•&nbsp;1125人在学习</span></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 前端 -->
+    <!-- 尾栏 -->
+    <footer>
+        <div class="footer w">
+            <div class="foleft">
+                <div class="fologo"><img src="images/logo.png" alt=""></div>
+                <p>学成在线致力于普及中国最好的教育它与中国一流大学和机构合作提供在线课程。</p>
+                <p>© 2017年XTCG Inc.保留所有权利。-沪ICP备15025210号</p>
+                <div class="fobutton"><button><a href="http://www.baidu.com" target="_blank">下载APP</a></button></div>
+            </div>
+            <div class="foright">
+                <dl>
+                    <dt>关于学成网</dt>
+                    <dd>关于</dd>
+                    <dd>管理团队</dd>
+                    <dd>工作机会</dd>
+                    <dd>客户服务</dd>
+                    <dd>帮助</dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd>如何注册</dd>
+                    <dd>如何选课</dd>
+                    <dd>如何拿到毕业证</dd>
+                    <dd>学分是什么</dd>
+                    <dd>考试未通过怎么办</dd>
+                </dl>
+                <dl>
+                    <dt>合作伙伴</dt>
+                    <dd>合作机构</dd>
+                    <dd>合作导师</dd>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <!-- 尾栏 -->
+</body>
+
+</html>

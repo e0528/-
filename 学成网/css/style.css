@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+.w {
+    width: 1202px;
+    margin: auto;
+}
+
+
+/* 侧边栏 */
+
+.cebian {
+    position: fixed;
+    top: 330px;
+    left: 151px;
+    width: 185px;
+    height: 427px;
+    background-color: pink;
+}
+
+.cebian ul {
+    width: 185;
+    height: 427px;
+}
+
+.cebian ul li {
+    width: 185px;
+    height: 42px;
+}
+
+
+/* 侧边栏 */
+
+
+/* 横幅 */
+
+.hengfu {
+    margin: 30px auto;
+    height: 40px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 67px;
+    height: 38px;
+}
+
+.nav li {
+    float: left;
+    padding: 0 12px;
+    line-height: 40px;
+    font-size: 18px;
+    color: rgb(5, 5, 5);
+}
+
+.nav li a {
+    display: block;
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid rgb(0, 164, 255);
+}
+
+.search {
+    float: left;
+    margin-left: 94px;
+    width: 411px;
+    height: 40px;
+}
+
+.search .text {
+    float: left;
+    padding-left: 20px;
+    width: 339px;
+    height: 38px;
+    outline: none;
+    border: 1px solid rgb(0, 164, 255);
+    border-right: none;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.search .submit {
+    width: 51px;
+    height: 40px;
+    background: url(../images/search.png);
+    border: none;
+    cursor: pointer;
+}
+
+.user {
+    position: relative;
+    float: left;
+    width: 154px;
+    padding-left: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.user img {
+    position: absolute;
+    top: 3px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.user b {
+    display: inline-block;
+    font-weight: 400;
+    margin-left: 38px;
+}
+
+
+/* 横幅结束 */
+
+
+/* lan */
+
+.lan {
+    height: 422px;
+    background-color: rgb(28, 3, 108);
+}
+
+.lans {
+    height: 422px;
+    background: url(../images/lans.png) no-repeat;
+    background-position: center top;
+}
+
+.lans_left {
+    float: left;
+    width: 191px;
+    height: 422px;
+}
+
+.lans_left ul {
+    padding: 20px 0;
+    width: 191px;
+    height: 380px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.lans_left a {
+    display: block;
+    padding-left: 20px;
+    margin-bottom: 16px;
+    height: 30px;
+    color: #fff;
+}
+
+.lans_left ul li .lasta {
+    margin-bottom: 0;
+}
+
+.lans_left a:hover {
+    color: rgb(0, 180, 255);
+}
+
+.lans_middle {
+    position: absolute;
+    margin-left: 481px;
+    margin-top: 361px;
+    width: 178px;
+    height: 27px;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 13.5px;
+}
+
+.lans_middle a {
+    display: block;
+    float: left;
+    margin-left: 14px;
+    margin-top: 6px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(100, 182, 230);
+}
+
+.lans_right {
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 229px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.lans_right h2 {
+    height: 64px;
+    line-height: 64px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(155, 206, 234);
+}
+
+.lans_right h3 {
+    /* margin-top: 15px; */
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    color: rgb(95, 95, 95);
+}
+
+.lans_right b {
+    font-size: 14px;
+}
+
+.lans_right div {
+    height: 221px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.lans_right p {
+    height: 12px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    font-size: 12px;
+    margin-bottom: 3px;
+    padding-bottom: 16px;
+    color: #a5a5a5;
+}
+
+.lans_right button {
+    display: block;
+    width: 198px;
+    height: 37px;
+    border: rgb(0, 164, 255) 2px solid;
+}
+
+.lans_right button a {
+    display: block;
+    width: 198px;
+    height: 37px;
+    line-height: 37px;
+    color: rgb(0, 164, 255);
+}
+
+
+/* lan */
+
+
+/* 热门 */
+
+.remen {
+    height: 68px;
+}
+
+.remen ul {
+    height: 68px;
+}
+
+.remen_left {
+    float: left;
+    width: 971px;
+    height: 68px;
+    font-size: 15px;
+}
+
+.remen li {
+    float: left;
+    width: 99px;
+    border-right: 2px solid rgb(206, 206, 206);
+    height: 16px;
+    padding: 0px 15px;
+    margin-top: 28px;
+    line-height: 11px;
+}
+
+.remen li .rementuijian {
+    color: #00a4ff;
+}
+
+.remen_right {
+    float: right;
+    width: 231px;
+    height: 68px;
+}
+
+.remen_right a {
+    display: block;
+    float: right;
+    margin-top: 24px;
+    height: 20px;
+    line-height: 20px;
+    color: #00a4ff;
+}
+
+
+/* 热门 */
+
+
+/* 推荐内容 */
+
+.tuijian {
+    height: 637px;
+}
+
+.tuijian .tuijian_top {
+    height: 75px;
+    line-height: 75px;
+}
+
+
+/* 公共内容 */
+
+.tuijian_bottom {
+    height: 562px;
+}
+
+
+/* 推荐内容 */
+
+
+/* 编程入门 */
+
+.prog {
+    height: 470px;
+}
+
+.prog_top {
+    height: 75px;
+    line-height: 75px;
+}
+
+.prog_bottom {
+    height: 394px;
+}
+
+.prog_bottom_left {
+    float: left;
+    width: 228px;
+    height: 394px;
+}
+
+.prog_bottom_right {
+    float: left;
+    margin-left: 15px;
+    width: 959px;
+    height: 394px;
+}
+
+.prog_bottom_right h3 {
+    width: 959px;
+    height: 103px;
+}
+
+.prog_bottom_right h3 img {
+    width: 100%;
+    height: 103px;
+}
+
+
+/* 编程入门内容 */
+
+.prog_bottom_right .progrb {
+    margin-top: 22px;
+    width: 959px;
+    height: 272px;
+}
+
+.progrb ul {
+    width: 959px !important;
+    height: 272px !important;
+}
+
+.progrb ul li {
+    width: 228px !important;
+    height: 272px !important;
+    margin-right: 15px;
+}
+
+.progrb ul li:last-child {
+    margin-right: 0;
+}
+
+.progrb ul li img {
+    width: 229px;
+    height: 156px;
+}
+
+.progrb ul li h3 {
+    width: 184px;
+}
+
+
+/* 编程入门 */
+
+
+/* 机器 */
+
+.jiqi {
+    height: 353px;
+}
+
+.jiqi ul {
+    width: 100%;
+}
+
+.jiqi ul li:last-child {
+    margin-right: 0;
+}
+
+.jiqi .jiqiimg {
+    width: 221px;
+}
+
+
+/* 机器 */

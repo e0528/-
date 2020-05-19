@@ -1,0 +1,202 @@
+/* 上通用栏 */
+
+.universe a {
+    display: inline-block;
+}
+
+.universe_left {
+    width: 143px;
+    /* //133 */
+    float: left;
+    height: 75px;
+    color: #494949;
+    font-size: 20px;
+}
+
+.universe_right {
+    float: right;
+    width: 68px;
+    height: 75px;
+    color: #a5a5a5;
+    font-size: 12px;
+    padding-left: 150px;
+}
+
+.universe div {
+    float: left;
+    width: 839px;
+    height: 73px;
+}
+
+.universe ul {
+    margin-left: 255px;
+    width: 584px;
+    height: 73px;
+}
+
+.universe ul li {
+    float: left;
+    margin-left: 34px;
+    width: 58px;
+    height: 73px;
+}
+
+.universe ul li a {
+    display: block;
+    height: 73px;
+    font-size: 16px;
+    color: #868686;
+}
+
+.universe ul li a:hover {
+    color: #00a4ff;
+}
+
+
+/* 上通用栏 */
+
+
+/* 通用内容 */
+
+.universecon ul {
+    width: 1230px;
+    height: 562px;
+}
+
+.universecon ul li {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    width: 230px;
+    height: 271px;
+}
+
+.universecon ul li:hover {
+    box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, .2);
+}
+
+.universecon ul li h3 {
+    height: 33px;
+    padding: 24px 20px 12px 25px;
+    font-size: 12px;
+    color: #050505;
+}
+
+.universecon ul li p {
+    padding-top: 9px;
+    height: 37px;
+    padding-left: 25px;
+    font-size: 12px;
+}
+
+.universecon .universecon_spanleft {
+    color: #ff7c2d;
+}
+
+.universecon .universecon_spanright {
+    color: #999;
+}
+
+.universecon img {
+    width: 230px;
+    height: 155px;
+}
+
+.universecon .newandhot {
+    width: 40px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
+
+
+/* 通用内容 */
+
+
+/* 尾部 */
+
+footer {
+    margin-top: 40px;
+    height: 418px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer {
+    height: 418px;
+}
+
+.foleft {
+    float: left;
+    width: 527px;
+    height: 418px;
+}
+
+.fologo {
+    height: 78px;
+    padding-top: 32px;
+    padding-left: 23px;
+    margin-bottom: 17px;
+}
+
+.foleft p {
+    padding-left: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.fobutton {
+    margin-top: 10px;
+}
+
+.fobutton {
+    margin-left: 18px;
+    margin-top: 8px;
+    width: 118px;
+    height: 34px;
+}
+
+.fobutton button {
+    width: 118px;
+    height: 34px;
+    line-height: 34px;
+    color: rgb(0, 164, 255);
+    border: 1px solid rgb(0, 164, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.fobutton button a {
+    display: block;
+    height: 34px;
+}
+
+.foright {
+    float: left;
+    width: 675px;
+    height: 418px;
+}
+
+.foright dl {
+    float: left;
+    margin-left: 92px;
+    padding-left: 13px;
+    padding-top: 33px;
+    width: 117px;
+    height: 385px;
+    color: #333;
+}
+
+.foright dl dd {
+    font-size: 12px;
+}
+
+.foright dl dt {
+    margin-bottom: 18px;
+}
+
+.foright dl:first-child {
+    margin-left: 101px;
+}
+
+
+/* 尾部 */
